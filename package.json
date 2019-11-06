@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/olchern/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/olchern/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/olchern/frontend-project-lvl1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.0",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1"
+  }
 }
