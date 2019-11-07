@@ -23,11 +23,11 @@
   "bugs": {
     "url": "https://github.com/olchern/frontend-project-lvl1/issues"
   },
-   "jest": {
+  "jest": {
     "testEnvironment": "node"
   },
   "homepage": "https://github.com/olchern/frontend-project-lvl1#readme",
-    "devDependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/node": "^7.6.3",
