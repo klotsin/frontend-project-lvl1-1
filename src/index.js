@@ -1,5 +1,35 @@
 import readlineSync from 'readline-sync';
 
-const userName = readlineSync.question('May I have your name? ');
+const levelsCount = 3;
+console.log('Welcome to the Brain Games!\n');
+export const playerName = readlineSync.question('May I have your name? ');
 
-export default userName;
+const flow = (getLevelTask, descriptionGame) => {
+  
+  console.log(`Hello, ${playerName}!\n`);
+  console.log(`${descriptionGame}\n`);
+  
+  const iter = (counter) => {
+    if (counter > levelsCount) {
+      console.log(`Congratulations, ${playerName}!`);
+      return;
+    }
+
+    const [question, answer] = getLevelTask();
+    console.log(`Question: ${question}`);
+    const actual = readlineSync.question('Your answer: ');
+
+    if (actual !== answer) {
+      console.log(`'${actual}' is wrong answer ;(. Correct answer was '${answer}'.`);
+      console.log(`Let's try again, ${playerName}!`);
+      return;
+    }
+
+    console.log('Correct!');
+    iter(counter + 1);
+  };
+
+  iter(1);
+};
+
+export default flow;
