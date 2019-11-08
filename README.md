@@ -15,7 +15,16 @@ https://travis-ci.org/olchern/frontend-project-lvl1.svg?branch=master!:https://t
 
 Пользователь видит рандомное число, он должен ответить yes, если число чётное, no — если нечётное.
 
-**запуск игры**
+**Запуск игры**
 ```$ brain-even```
 
 [![asciicast](https://asciinema.org/a/i0wUdOtxFCaMM6AAq5C15GxR2.svg)](https://asciinema.org/a/i0wUdOtxFCaMM6AAq5C15GxR2)
+
+### Игра: "Калькулятор"
+
+Пользователю показывается случайное математическое выражение, которое нужно вычислить и записать правильный ответ.
+
+**Запуск игры**
+```$ brain-calc```
+
+[![asciicast](https://asciinema.org/a/swjqkb0XQdpXtFrKa0SovXQ3g.svg)](https://asciinema.org/a/swjqkb0XQdpXtFrKa0SovXQ3g)
