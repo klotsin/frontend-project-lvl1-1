@@ -1,11 +1,12 @@
 {
   "name": "olch-brain-games",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Проект для Хекслет, уровень 1",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-calc": "dist/bin/brain-calc.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-gcd": "dist/bin/brain-gcd.js"
   },
   "files": [
     "dist"
