@@ -1,49 +1,45 @@
 {
   "name": "olch-brain-games",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.4",
+  "description": "Проект для Хекслет, уровень 1",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
+    "brain-calc": "dist/bin/brain-calc.js",
     "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=production babel src --out-dir dist --source-maps inline",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "eslint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olchern/frontend-project-lvl1.git"
+    "url": "git+ssh://git@github.com/olchern/frontend-project-lvl1.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "hexlet",
+    "brain-games"
+  ],
+  "author": "Olga Chernigovskaya",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/olchern/frontend-project-lvl1/issues"
   },
-  "jest": {
-    "testEnvironment": "node"
-  },
   "homepage": "https://github.com/olchern/frontend-project-lvl1#readme",
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
-    "@babel/core": "^7.6.4",
-    "@babel/node": "^7.6.3",
-    "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
-    "@babel/preset-env": "^7.6.3",
-    "babel-eslint": "^10.0.3",
-    "babel-jest": "^24.9.0",
-    "debug": "^4.1.1",
-    "eslint": "^6.5.1",
-    "eslint-config-airbnb-base": "^14.0.0",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.2",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.19.0",
-    "jest": "^24.9.0",
-    "jest-cli": "^24.9.0"
+    "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
