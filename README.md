@@ -28,3 +28,12 @@ https://travis-ci.org/olchern/frontend-project-lvl1.svg?branch=master!:https://t
 ```$ brain-calc```
 
 [![asciicast](https://asciinema.org/a/swjqkb0XQdpXtFrKa0SovXQ3g.svg)](https://asciinema.org/a/swjqkb0XQdpXtFrKa0SovXQ3g)
+
+### Игра: "НОД"
+
+Пользователю показывается два случайных числа. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+**Запуск игры**
+```$ brain-gcd```
+
+[![asciicast](https://asciinema.org/a/PGuhQ0hfVW7ieytRcXyBDKYrs.svg)](https://asciinema.org/a/PGuhQ0hfVW7ieytRcXyBDKYrs)
