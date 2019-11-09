@@ -37,3 +37,12 @@ https://travis-ci.org/olchern/frontend-project-lvl1.svg?branch=master!:https://t
 ```$ brain-gcd```
 
 [![asciicast](https://asciinema.org/a/PGuhQ0hfVW7ieytRcXyBDKYrs.svg)](https://asciinema.org/a/PGuhQ0hfVW7ieytRcXyBDKYrs)
+
+### Игра: "Арифметическая прогрессия"
+
+Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
+
+**Запуск игры**
+```$ brain-progression```
+
+[![asciicast](https://asciinema.org/a/iuGl4Ts4USLUUdzHLaksMQxRX.svg)](https://asciinema.org/a/iuGl4Ts4USLUUdzHLaksMQxRX)
