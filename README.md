@@ -46,3 +46,12 @@ https://travis-ci.org/olchern/frontend-project-lvl1.svg?branch=master!:https://t
 ```$ brain-progression```
 
 [![asciicast](https://asciinema.org/a/iuGl4Ts4USLUUdzHLaksMQxRX.svg)](https://asciinema.org/a/iuGl4Ts4USLUUdzHLaksMQxRX)
+
+### Игра: "Простое ли число?"
+
+Показываем игроку случайное число. Игрок должен определить простое ли это число и ответить "yes", если оно простое или "no" - в ином случае.
+
+**Запуск игры**
+```$ brain-prime```
+
+[![asciicast](https://asciinema.org/a/XBTVLvjWx3n2Ou1f8ttUUUeVu.svg)](https://asciinema.org/a/XBTVLvjWx3n2Ou1f8ttUUUeVu)
