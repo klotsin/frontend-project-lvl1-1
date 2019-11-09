@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { playerName } from '../index';
+import { userName } from '../index';
 
-  console.log(`Hello, ${playerName}!\n`);
+  console.log(`Hello, ${userName}!\n`);
