@@ -1,9 +1,6 @@
 # frontend-project-lvl1
-https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability!":https://codeclimate.com/github/codeclimate/codeclimate/maintainability
 
-https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage!":https://codeclimate.com/github/codeclimate/codeclimate/test_coverage
-
-https://travis-ci.org/olchern/frontend-project-lvl1.svg?branch=master!:https://travis-ci.org/olchern/frontend-project-lvl1
+[![Build Status](https://travis-ci.org/olchern/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/olchern/frontend-project-lvl1)
 
 ### **Установка**
 
@@ -15,7 +12,7 @@ https://travis-ci.org/olchern/frontend-project-lvl1.svg?branch=master!:https://t
 
 Пользователь видит рандомное число, он должен ответить yes, если число чётное, no — если нечётное.
 
-**Запуск игры**
+**Запуск**
 ```$ brain-even```
 
 [![asciicast](https://asciinema.org/a/i0wUdOtxFCaMM6AAq5C15GxR2.svg)](https://asciinema.org/a/i0wUdOtxFCaMM6AAq5C15GxR2)
@@ -24,16 +21,16 @@ https://travis-ci.org/olchern/frontend-project-lvl1.svg?branch=master!:https://t
 
 Пользователю показывается случайное математическое выражение, которое нужно вычислить и записать правильный ответ.
 
-**Запуск игры**
+**Запуск**
 ```$ brain-calc```
 
 [![asciicast](https://asciinema.org/a/swjqkb0XQdpXtFrKa0SovXQ3g.svg)](https://asciinema.org/a/swjqkb0XQdpXtFrKa0SovXQ3g)
 
-### Игра: "НОД"
+### Игра: "Наибольший Общий Делитель"
 
 Пользователю показывается два случайных числа. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
-**Запуск игры**
+**Запуск**
 ```$ brain-gcd```
 
 [![asciicast](https://asciinema.org/a/PGuhQ0hfVW7ieytRcXyBDKYrs.svg)](https://asciinema.org/a/PGuhQ0hfVW7ieytRcXyBDKYrs)
@@ -42,7 +39,7 @@ https://travis-ci.org/olchern/frontend-project-lvl1.svg?branch=master!:https://t
 
 Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
 
-**Запуск игры**
+**Запуск**
 ```$ brain-progression```
 
 [![asciicast](https://asciinema.org/a/iuGl4Ts4USLUUdzHLaksMQxRX.svg)](https://asciinema.org/a/iuGl4Ts4USLUUdzHLaksMQxRX)
@@ -51,7 +48,7 @@ https://travis-ci.org/olchern/frontend-project-lvl1.svg?branch=master!:https://t
 
 Показываем игроку случайное число. Игрок должен определить простое ли это число и ответить "yes", если оно простое или "no" - в ином случае.
 
-**Запуск игры**
+**Запуск**
 ```$ brain-prime```
 
 [![asciicast](https://asciinema.org/a/XBTVLvjWx3n2Ou1f8ttUUUeVu.svg)](https://asciinema.org/a/XBTVLvjWx3n2Ou1f8ttUUUeVu)
