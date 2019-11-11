@@ -1,12 +1,13 @@
 import readlineSync from 'readline-sync';
 
 const levelsCount = 3;
-console.log('Welcome to the Brain Games!\n');
-export const userName = readlineSync.question('May I have your name? ');
 
 const flow = (getLevelTask, descriptionGame) => {
-  console.log(`Hello, ${userName}!\n`);
+  console.log('Welcome to the Brain Games!\n');
   console.log(`${descriptionGame}\n`);
+  const userName = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${userName}!\n`);
+  
   const iter = (counter) => {
     if (counter > levelsCount) {
       console.log(`Congratulations, ${userName}!`);
