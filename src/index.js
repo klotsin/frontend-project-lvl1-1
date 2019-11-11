@@ -7,7 +7,6 @@ const flow = (getLevelTask, descriptionGame) => {
   console.log(`${descriptionGame}\n`);
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!\n`);
-  
   const iter = (counter) => {
     if (counter > levelsCount) {
       console.log(`Congratulations, ${userName}!`);
